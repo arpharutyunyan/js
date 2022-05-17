@@ -1,0 +1,18 @@
+﻿
+.generalDiv {
+    border: 2px solid silver;
+    margin: 20px;
+}
+
+.middleDiv {
+    border: 2px solid red;
+    width: 600px;
+    margin: 30px 40px;
+    
+}
+
+.innerDiv {
+    border: 2px solid green;
+    height: 200px;
+    margin:10px 20px 30px 60px;
+}

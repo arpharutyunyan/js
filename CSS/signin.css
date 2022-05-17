@@ -1,0 +1,42 @@
+﻿
+.general{
+    border:4px solid black;
+    border-radius:10px;
+    margin:50px 30px;
+    width:350px;
+    height:200px;
+    padding:20px;
+}
+
+.mail{
+    border:2px solid blue;
+    border-radius:3px;
+    height:30px;
+    width:200px;
+    margin:30px;
+}
+
+.password {
+    border: 2px solid purple;
+    height: 30px;
+    width: 200px;
+    margin-left:5px;
+}
+
+.button{
+    border:3px solid black;
+    border-left:solid silver;
+    border-top:solid silver;
+    border-radius:10px;
+    width:90px;
+    height:40px;
+    background-color:blueviolet;
+    margin: 20px 130px;
+    color:white;
+    font-size:20px;
+    cursor:pointer;    
+}
+
+.button:hover{
+    background-color:coral;
+}
