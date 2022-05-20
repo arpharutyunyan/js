@@ -1,0 +1,31 @@
+﻿
+.block1 {
+    position:absolute;
+    border: 2px solid red;
+    width: 350px;
+    height: 100px;
+    top: 50px;
+    left:100px;
+    overflow: visible;
+}
+
+.block2 {
+    position:absolute;
+    border: 2px solid red;
+    width: 350px;
+    height: 100px;
+    top:50px;
+    left:600px;
+    overflow: hidden;
+}
+
+.block3 {
+    position: absolute;
+    border: 2px solid red;
+    width: 350px;
+    height: 100px;
+    top: 50px;
+    left: 1100px;
+    overflow: scroll;
+}
+
