@@ -11,14 +11,14 @@ div {
 .div1 {
     position: absolute;
     background-color: pink;
-    padding:300px 730px;
+    padding:250px 450px;
     z-index: 10;
 }
 
 .div2 {
     position: absolute;
     background-color: green; 
-    padding:80px 630px;
+    padding:75px 350px;
     bottom:70px;
     left: 100px;
     z-index: 20;
@@ -27,7 +27,7 @@ div {
 .div3 {
     position: absolute;
     background-color: yellow;
-    padding: 70px;
+    padding: 50px;
     top: 150px;
     left: 100px;
     z-index: 30;
