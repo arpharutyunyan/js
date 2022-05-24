@@ -1,0 +1,27 @@
+﻿*{
+    padding: 0;
+    margin: 10px;
+}
+
+.block {
+    padding: 5px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    width: 70px;
+    height: 350px;
+}
+
+.item {
+    padding: 20px;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.general {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
