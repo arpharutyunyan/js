@@ -1,6 +1,6 @@
 ﻿* {
     padding: 0;
-    margin: 0px;
+    margin: 0;
 }
 
 body{
@@ -74,5 +74,5 @@ body{
 }
 
 .flex3 {
-    flex: 4;
+    flex: 3;
 }
