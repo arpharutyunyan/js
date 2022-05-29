@@ -1,0 +1,38 @@
+﻿.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+.block {
+    margin: 50px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.first{
+    background-color:indianred;
+}
+
+.second{
+    background-color: cornflowerblue;
+}
+
+.third {
+    background-color: darkslategrey;
+}
+
+
+
+@media screen and (max-width:1024){
+    .container {
+        flex-wrap:wrap;
+    }
+}
+
+@media screen and (max-width:768) {
+    .container {
+        flex-direction:column;
+    }
+}
+
