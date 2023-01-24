@@ -1,0 +1,78 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rebeccapurple;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+}
+
+.contanier {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size:200px;
+    font-weight:bold;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.pink {
+    background-color: pink;
+    flex: 1;
+}
+
+.red {
+    background-color: red;
+    flex: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    flex: 1;
+}
+
+.blue {
+    background-color: blue;
+    flex: 1;
+}
+
+.flex2{
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}

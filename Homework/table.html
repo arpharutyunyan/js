@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <style>
+        table, th, tr, td {
+            border: 2px solid green;
+            background-color:yellow;
+            width:400px;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table style="width:400px">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align:left">Row 3 Cell 1</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

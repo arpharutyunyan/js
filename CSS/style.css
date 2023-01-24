@@ -1,0 +1,13 @@
+﻿
+.first{
+    background-color:red;
+    border:3px solid black;
+    margin:50px;
+    padding:30px;
+}
+
+.second {
+    background-color: green;
+    border: 10px solid black;
+    margin: 10px;
+}

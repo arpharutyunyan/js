@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>block</title>
+</head>
+<body>
+    <!--General block-->
+    <div id="general" style="border-radius:10px; width:500px; height:600px; background-color:rgb(128, 128, 128, 0.5); border:3px solid black; border-top-color: blue;
+            border-bottom-color:green; border-left-color:red; border-right-color:sandybrown;">
+
+        <!--block name and surname-->
+        <div id="name_surname" style="height:100px; background-color:green; margin:10px">
+            <form action="block.js">
+
+                <!--name-->
+                <label for="name" style="font-size:15px; color:blue">
+                    <b>First name:</b>
+                    <br />
+                    <input type="text" name="name" />
+                </label>
+                <br />
+
+                <!--surname-->
+                <label for="surname" style="font-size:20px; color:red">
+                    Last name:
+                    <br />
+                    <input type="text" name="surname" />
+                </label>
+
+            </form>
+        </div>
+
+        <!--block birthday and gender-->
+        <div id="bday_gen" style="height:130px; background-color:rgb(244, 216, 162); margin:10px">
+            <form action="block.js">
+
+                <!--birthday-->
+                <label for="birthday" style="font-size:15px">
+                    <b>Birthday:</b>
+                    <br />
+                    <input type="date" name="birthday" />
+                </label>
+
+                <br />
+                <p><b>Gender:</b> <br /></p>
+
+                <!--gender-->
+                <input id="male" type="radio" name="gender" value="male" />
+                <label for="gender">Male</label>
+                <br />
+                <input id="female" type="radio" name="gender" value="female" />
+                <label for="gender">Female</label>
+
+            </form>
+        </div>
+
+        <!--block hobby-->
+        <div id="hobby" style="height:93px; background-color:rgba(246 241 134); margin:10px">
+            <form action="block.js">
+
+                <p><b>Hobby:</b> <br /></p>
+
+                <input id="sport" type="checkbox" name="sport" value="sport" />
+                <label for="sport">Sport</label>
+                <br />
+                <input id="music" type="checkbox" name="music" value="music" />
+                <label for="music">Music</label>
+                <br />
+                <input id="painting" type="checkbox" name="painting" value="painting" />
+                <label for="painting">Painting</label>
+
+            </form>
+        </div>
+
+        <!--block mail and picture-->
+        <div id="mail_pict" style="height:93px; background-color:rgb(252 252 252); margin:10px">
+            <form action="block.js">
+
+                <!--color-->
+                <label for="color">Preferred color:</label>
+                <br />
+                <input id="color" type="color" name="color" value="#e66465" />
+
+                <br />
+
+                <!--email-->
+                <label for="mail">
+                    Enter your email:
+                    <input id="email" type="email" name="mail" />
+                </label>
+
+                <br />
+
+                <!--choose file-->
+                <label for="file">
+                    Select a profile picture:
+                    <input id="file" type="file" name="file" />
+                </label>
+
+            </form>
+        </div>
+
+        <!--submit-->
+        <div id="submit" style="margin: 10px">
+            <form action="block.js">
+
+                <input id="submit" type="submit" name="submit" value="Submit"/>
+
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

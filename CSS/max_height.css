@@ -1,0 +1,10 @@
+﻿p {
+    background-color: red;
+    min-height: 500px;
+    max-width:500px;
+}
+
+span{
+    background-color:yellow;
+    min-width:500px;
+}

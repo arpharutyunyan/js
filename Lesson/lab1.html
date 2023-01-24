@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>list.am</title>
+</head>
+<body>
+    <div id="announcement">
+        <form>
+            <p><b>Հայտարարության տեսակը</b></p>
+            <input id="sale" type="radio" checked name="sale" value="sale" />
+            <label for="sale">Վաճառք</label>
+            <input id="exchange" type="radio" name="sale" value="exchange" />
+            <label for="exchange">Փոխանակում եմ</label>
+            <input id="search" type="radio" name="sale" value="search" />
+            <label for="search">Փնտրում եմ</label>
+
+
+            <p><b>Ձեր կարգավիճակը</b></p>
+            <input id="self" type="radio" checked name="self" value="sale" />
+            <label for="self">Սեփականատեր <br />Եթե դուք վաճառում ենք ձեր սեփական մեքենան</label>
+            <br />
+            <input id="diler" type="radio" name="self" value="diler" />
+            <label for="diler">Դիլեր <br /> եթե դուք միջնորդ եք </label>
+
+            <p><b>Գտնվելու վայրը</b></p>
+            <label for="region"> Տարածաշրջան</label>
+            <select id="region">
+                <option value="Գյումրի">Գյումրի</option>
+                <option value="yerevan">Երևան</option>
+                <option value="vanadzor">Վանաձոր</option>
+                <option value="idzhevan">Իջևան</option>
+            </select>
+
+
+            <p><b>Տեղեկություններ ավտոմեքենայի մասին</b></p>
+            <label for="mark"> Մակնիշ</label>
+            <select id="mark">
+                <option value=""></option>
+                <option value="abarth">Abarth</option>
+                <option value="citroen">Citroen</option>
+                <option value="Geo">Geo</option>
+                <option value="Seat">Seat</option>
+            </select>
+
+            <br />
+            <label for="model"> Մոդել</label>
+            <select id="model">
+                <option value=""></option>
+                <option value="metro">Metro</option>
+                <option value="prizm">Prizm</option>
+                <option value="storm">Storm</option>
+            </select>
+
+        </form>
+    </div>
+</body>
+</html>

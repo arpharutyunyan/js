@@ -1,0 +1,22 @@
+﻿.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+span{
+    font-size:100px;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    height: 50px;
+    width: 120px;
+    margin-left:50px;;
+}
+
+.dropdown:hover .content{
+    cursor:pointer;
+    display:block;
+}

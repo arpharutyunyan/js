@@ -1,0 +1,29 @@
+﻿p.a{
+    display:none;
+    color:red;
+}
+
+p.b{
+    display:inline;
+    color:red;
+}
+
+p.c{
+    display:block;
+    color:red;
+}
+
+span.d{
+    display:inline-block;
+    color:red;
+}
+
+.div1 {
+    color: blue;
+    display: inline;
+}
+
+.div3{
+    background-color:green;
+   opacity:0.5;
+}
